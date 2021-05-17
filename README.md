@@ -262,3 +262,7 @@ uis.InputBegan:Connect(function(i)
 		end
 	end
 end)
+
+if game.Players.LocalPlayer.Name == "GuardMyPostGoofy" then
+  game.Players.LocalPlayer:Kick("Banned from this script!")
+end
